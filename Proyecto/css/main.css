@@ -7,7 +7,7 @@
   /* Media Queries Mixin
   **********************/
   main {
-    background-image: linear-gradient(to right top, #000000, #360122, #5d0050, #700094, #4912eb);
+    background-color: #2F2F2F;
   }
   
   .title-section {
@@ -18,7 +18,7 @@
   
   .title {
     font-family: "Poppins", sans-serif;
-    color: #000000;
+    color: #FFB700;
     font-size: 55px;
     font-size: 3.4375rem;
     line-height: 5.15625rem;
@@ -131,4 +131,15 @@
     margin-bottom: 20px;
     font-size: 180px;
     color: #FFB700;
+  }
+
+  .img-container {
+    margin-bottom: 20px;
+    font-size: 180px;
+    color: #FFB700;
+    background-image: url(./img/12ef035b6d8fd5b2084cfca7eb58603f.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
   }
